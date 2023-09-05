@@ -1,2 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<co:bookshops xmlns:co="http://www.contoso.com/bookshops"/>
+<?xml version="1.0" encoding="utf-8"?>
+<co:bookshops xmlns:co="http://www.contoso.com/bookshops">
+  <co:bookshop id="1">
+    <co:name>Amazon</co:name>
+    <co:website>https://amazon.com</co:website>
+    <co:books>
+      <co:book id="1">
+        <co:authors>
+          <co:author>Alexandre Dumas</co:author>
+        </co:authors>
+        <co:title>The Three Musketeers</co:title>
+        <co:genres>
+          <co:genre>Historical novel</co:genre>
+          <co:genre>Adventure novel</co:genre>
+          <co:genre>Swashbuckler</co:genre>
+        </co:genres>
+        <co:categories>
+          <co:category>Action</co:category>
+          <co:category>Adventure</co:category>
+        </co:categories>
+        <co:price currency="USD">11.13</co:price>
+        <co:language>English</co:language>
+      </co:book>
+      <!-- Add more books here -->
+    </co:books>
+  </co:bookshop>
+  <!-- Add more bookshops here -->
+</co:bookshops>

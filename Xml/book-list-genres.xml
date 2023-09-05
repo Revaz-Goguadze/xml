@@ -1,2 +1,44 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<books/>
+<books xmlns:co="http://www.contoso.com/book">
+  <book>
+    <co:title>Pride And Prejudice</co:title>
+    <co:price>24.95</co:price>
+    <genres>
+      <co:genre>Classic Regency novel</co:genre>
+      <co:genre>Romance novel</co:genre>
+    </genres>
+    <co:isbn>1-861001-57-8</co:isbn>
+    <publicationDate>
+      <publicationYear>1823</publicationYear>
+      <publicationMonth>01</publicationMonth>
+      <publicationDay>28</publicationDay>
+    </publicationDate>
+  </book>
+  <book>
+    <co:title>The Handmaid's Tale</co:title>
+    <co:price>29.95</co:price>
+    <genres>
+      <co:genre>Dystopian novel</co:genre>
+      <co:genre>Speculative fiction</co:genre>
+      <co:genre>Tragedy</co:genre>
+    </genres>
+    <co:isbn>1-861002-30-1</co:isbn>
+    <publicationDate>
+      <publicationYear>1985</publicationYear>
+      <publicationMonth>01</publicationMonth>
+      <publicationDay>01</publicationDay>
+    </publicationDate>
+  </book>
+  <book>
+    <co:title>Sense and Sensibility</co:title>
+    <co:price>19.95</co:price>
+    <genres>
+      <co:genre>Romance novel</co:genre>
+    </genres>
+    <co:isbn>1-861001-45-3</co:isbn>
+    <publicationDate>
+      <publicationYear>1811</publicationYear>
+      <publicationMonth>01</publicationMonth>
+      <publicationDay>01</publicationDay>
+    </publicationDate>
+  </book>
+</books>

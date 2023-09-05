@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<books/>
+<co:books xmlns:co="http://www.contoso.com/book">
+  <co:book id="1">
+    <co:author>Jane Austen</co:author>
+    <co:country>United Kingdom</co:country>
+    <co:title>Pride And Prejudice</co:title>
+    <co:language>English</co:language>
+    <co:price>24.95</co:price>
+    <co:genre>novel</co:genre>
+    <co:isbn>1-861001-57-8</co:isbn>
+    <co:publicationDate>1823-01-28</co:publicationDate>
+  </co:book>
+  <co:book id="2">
+    <co:author>Margaret Atwood</co:author>
+    <co:country>Canada</co:country>
+    <co:title>The Handmaid's Tale</co:title>
+    <co:language>English</co:language>
+    <co:price>29.95</co:price>
+    <co:genre>novel</co:genre>
+    <co:isbn>1-861002-30-1</co:isbn>
+    <co:publicationDate>1985-01-01</co:publicationDate>
+  </co:book>
+  <co:book id="3">
+    <co:author>Jane Austen</co:author>
+    <co:country>United Kingdom</co:country>
+    <co:title>Sense and Sensibility</co:title>
+    <co:language>English</co:language>
+    <co:price>19.95</co:price>
+    <co:genre>novel</co:genre>
+    <co:isbn>1-861001-45-3</co:isbn>
+    <co:publicationDate>1811-01-01</co:publicationDate>
+  </co:book>
+</co:books>
